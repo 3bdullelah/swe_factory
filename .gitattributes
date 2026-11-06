@@ -1,0 +1,6 @@
+# The factory runs in WSL. Its scripts and agent files must keep Unix line
+# endings even when checked out by Git for Windows (core.autocrlf=true), or
+# the `#!/usr/bin/env python3` shebangs break.
+/factory/** text eol=lf
+/.claude/** text eol=lf
+*.sh text eol=lf
